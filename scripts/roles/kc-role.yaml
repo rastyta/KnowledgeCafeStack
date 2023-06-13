@@ -1,0 +1,9 @@
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: kc-role
+  namespace: default
+rules:
+  - apiGroups: [""]
+    resources: ["endpoints", "services", "pods", "configmaps", "secrets"]
+    verbs: ["get", "list", "watch"]

@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: dbcrudmicro
+data:
+  application.yml: |-
+    db:
+      couchbase:
+        ip: 10.0.1.234
