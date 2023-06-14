@@ -16,7 +16,7 @@ spec:
       serviceAccountName: kc-service-account
       containers:
         - name: back-end
-          image: 673380487826.dkr.ecr.eu-west-1.amazonaws.com/dbcrudmicro:latest
+          image: 636587819181.dkr.ecr.eu-west-1.amazonaws.com/dbcrudmicro:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
