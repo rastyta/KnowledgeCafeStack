@@ -24,10 +24,10 @@ spec:
             - name: CB_USERNAME
               valueFrom:
                 secretKeyRef:
-                  name: db-secret
+                  name: cb-secret
                   key: username
             - name: CB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: db-secret
+                  name: cb-secret
                   key: password
