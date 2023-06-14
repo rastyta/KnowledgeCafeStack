@@ -4,6 +4,5 @@ metadata:
   name: dbcrudmicro
 data:
   application.yml: |-
-    db:
-      couchbase:
-        ip: 10.0.0.73
+    couchbaseip:
+        value: 10.0.0.73
