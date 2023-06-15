@@ -5,4 +5,4 @@ metadata:
 data:
   application.yml: |-
     message:
-      value: First Message test
+      value: First Message
